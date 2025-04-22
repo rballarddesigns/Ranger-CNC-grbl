@@ -30,12 +30,12 @@
 #ifdef DEFAULTS_Ranger_CNC_5x4
   // Grbl settings for Ranger CNC 5 x 4.
   // www.RangerCNC.com
-  #define DEFAULT_X_STEPS_PER_MM 250.0
-  #define DEFAULT_Y_STEPS_PER_MM 250.0
-  #define DEFAULT_Z_STEPS_PER_MM 250.0
+  #define DEFAULT_X_STEPS_PER_MM 40.0
+  #define DEFAULT_Y_STEPS_PER_MM 40.0
+  #define DEFAULT_Z_STEPS_PER_MM 400.0
   #define DEFAULT_X_MAX_RATE 12700.0 // mm/min
   #define DEFAULT_Y_MAX_RATE 12700.0 // mm/min
-  #define DEFAULT_Z_MAX_RATE 5000.0 // mm/min
+  #define DEFAULT_Z_MAX_RATE 3000.0 // mm/min
   #define DEFAULT_X_ACCELERATION (500.0*60*60) // 10*60*60 mm/min^2 = 10 mm/sec^2
   #define DEFAULT_Y_ACCELERATION (500.0*60*60) // 10*60*60 mm/min^2 = 10 mm/sec^2
   #define DEFAULT_Z_ACCELERATION (300.0*60*60) // 10*60*60 mm/min^2 = 10 mm/sec^2
